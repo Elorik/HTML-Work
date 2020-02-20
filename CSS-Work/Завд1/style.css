@@ -1,0 +1,26 @@
+h1 {
+  color:orange;
+}
+
+em {
+  background-color:green;
+   color:white;
+}
+h2 {
+  color:orange;
+}
+
+li {
+  font-weight:bold;
+}
+
+td{
+  font-weight:bold;
+}
+
+
+p:first-letter{
+   color:red;
+   font-size: 200%;
+   font-weight:bold;
+}

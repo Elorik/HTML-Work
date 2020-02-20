@@ -1,0 +1,8 @@
+p:last-child {
+  color:#999;
+}
+
+p:first-child {
+  font-size: 250px;
+  color :#FF00FF; 
+}
