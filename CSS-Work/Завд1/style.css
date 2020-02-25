@@ -9,18 +9,34 @@ em {
 h2 {
   color:orange;
 }
-
 li {
   font-weight:bold;
 }
-
-td{
+td {
   font-weight:bold;
 }
-
 
 p:first-letter{
    color:red;
    font-size: 200%;
    font-weight:bold;
+}
+#selector1 {
+  color: gray;
+}
+#selector2 {
+  color:red;
+}
+#selector3{
+  color: green;
+}
+#selector4{
+  color:blue;
+}
+#selector5{
+  color:orange;
+}
+#selector6{
+  color:white;
+  background-color: green;
 }

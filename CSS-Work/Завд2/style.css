@@ -2,7 +2,7 @@ p:last-child {
   color:#999;
 }
 
-p:first-child {
-  font-size: 250px;
-  color :#FF00FF; 
+p:first-of-type{
+  font-size: 30px;
+
 }
