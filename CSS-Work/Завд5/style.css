@@ -1,4 +1,9 @@
-input:checked + label{
-  color: red;
-  
-}
+input:checked+ #green ~ .green {
+      background: green;
+    }
+input:checked + #blue ~ .blue{
+        background: blue;
+      }
+input:checked + #red ~ .red {
+          background: red;
+        }

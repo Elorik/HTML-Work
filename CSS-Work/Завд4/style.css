@@ -1,1 +1,27 @@
+table,
+td
+{
+    border-collapse: collapse;
+}
 
+td
+{
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+td:nth-child(3) {
+    background: pink;
+}
+td:nth-child(5) {
+    background: pink;
+}
+td:nth-child(7) {
+    background: pink;
+}
+td:nth-child(9) {
+    background: pink;
+}
+
+tr:nth-child(2n) {
+    background: lightblue;
+}
