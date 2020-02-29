@@ -1,9 +1,9 @@
-input:checked+ #green ~ .green {
-      background: green;
-    }
-input:checked + #blue ~ .blue{
-        background: blue;
-      }
-input:checked + #red ~ .red {
-          background: red;
-        }
+input[id|=red]:checked ~ .red{
+  background-color: red;
+}
+input[id|=green]:checked ~ .green{
+  background-color: green;
+}
+input[id|=blue]:checked ~ .blue{
+  background-color: blue;
+}
