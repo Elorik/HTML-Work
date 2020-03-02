@@ -1,0 +1,8 @@
+table,th, td{
+  border: 1px solid blue;
+  width: 1500px;
+}
+.hi {
+  background: blue;
+  color: white;
+}

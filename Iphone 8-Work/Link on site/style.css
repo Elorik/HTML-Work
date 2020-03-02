@@ -1,0 +1,74 @@
+.history{height: 50px;
+        margin-left: 500px;
+        width: 30%;
+        margin-top:200px
+}
+p {
+  font-family: Arial;
+  font-size: 20px;
+}
+.nom {
+  height: 300px;
+  width: 30%;
+  margin-left: 500px;
+}
+.photo{
+
+  margin-left: 350px;
+}
+.equipment{
+  height: 300px;
+  width: 30%;
+  margin-left: 500px;
+  margin-top:300px
+}
+.iphone{
+ text-align: center;
+}
+.three {
+  background: #FCF2E5;
+  padding: 50px 20px;
+  text-align: center;
+}
+.three h1 {
+  font-family: 'Merriweather', serif;
+  position: relative;
+  color: #FCF2E5;
+  background: #90806A;
+  font-size: 2.5em;
+  font-weight: normal;
+  padding: 10px 40px;
+  display: inline-block;
+  margin: 0;
+  line-height: 1;
+}
+.three h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: -15px;
+  background: #90806A;
+}
+.three h1:after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 80%;
+  border-top: 10px solid #90806A;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -25px;
+}
+@media (max-width: 500px) {
+  .three h1 {font-size: 1.8em;}
+}
+@media (max-width: 400px) {
+  .three h1 {
+    font-size: 1.5em;
+    padding: 10px 30px;
+  }
+}
