@@ -1,8 +1,30 @@
 table,th, td{
-  border: 1px solid blue;
-  width: 1500px;
+  border: 2px solid blue;
+
+  border-collapse: collapse;
 }
 .hi {
   background: blue;
   color: white;
+}
+.cell{
+  padding-top: 25px;
+  padding-bottom:25px;
+  width:30px;
+}
+.phone{
+  width:700px;
+}
+.prise{
+  width: 150px;
+}
+.syma{
+  width: 70px;
+}
+.left{
+  text-align: left;
+}
+.total{
+  padding-top: 2px;
+  padding-bottom:2px;
 }

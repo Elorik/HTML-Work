@@ -1,6 +1,7 @@
 input[id|=red]:checked ~ .red{
   background-color: red;
 }
+
 input[id|=green]:checked ~ .green{
   background-color: green;
 }
