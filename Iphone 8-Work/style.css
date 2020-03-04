@@ -28,3 +28,27 @@ table,th, td{
   padding-top: 2px;
   padding-bottom:2px;
 }
+
+
+.price{
+  visibility: hidden;
+}
+.price-radio-button {
+  border: 1px solid blue;
+  width: 10px;
+  height: 10px;
+  display:inline-block;
+  border-radius:10px;
+
+}
+.price-radio-button-inner{
+  width: 6px;
+  height: 6px;
+  border-radius:6px;
+  margin: 2px 0 0 2px;
+  background-color: blue;
+  visibility: hidden;
+}
+.price:checked ~ .price-radio-button .price-radio-button-inner{
+  visibility: visible;
+}
