@@ -33,15 +33,18 @@ table,th, td{
 .price{
   visibility: hidden;
 }
-.price-radio-button {
+.price-radio-button1 {
   border: 1px solid blue;
+  position:absolute;
+  left: 1115px;
+  top:22px;
   width: 10px;
   height: 10px;
   display:inline-block;
   border-radius:10px;
 
 }
-.price-radio-button-inner{
+.price-radio-button-inner1{
   width: 6px;
   height: 6px;
   border-radius:6px;
@@ -49,6 +52,28 @@ table,th, td{
   background-color: blue;
   visibility: hidden;
 }
-.price:checked ~ .price-radio-button .price-radio-button-inner{
-  visibility: visible;
+.price:checked ~ .price-radio-button1 .price-radio-button-inner1{
+  visibility: visible;}
+
+  .price-radio-button {
+    border: 1px solid blue;
+    position:absolute;
+    left: 1115px;
+    top:56px;
+    width: 10px;
+    height: 10px;
+    display:inline-block;
+    border-radius:10px;}
+
+
+    .price-radio-button-inner{
+      width: 6px;
+      height: 6px;
+      border-radius:6px;
+      margin: 2px 0 0 2px;
+      background-color: blue;
+      visibility: hidden;
 }
+
+.price:checked ~ .price-radio-button .price-radio-button-inner{
+  visibility: visible;}
