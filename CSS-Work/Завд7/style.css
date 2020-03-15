@@ -16,3 +16,11 @@ tbody tr:hover {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+.phone{
+
+ margin-left:73px;
+
+}
+.buttom{
+  margin-left:125px;
+}
